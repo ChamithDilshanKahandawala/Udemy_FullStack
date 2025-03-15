@@ -1,0 +1,25 @@
+
+
+body{
+ background-color: black; 
+}
+
+.image{
+    border: 5px solid white;
+    
+}
+
+.poster{
+    color: aliceblue;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-transform: uppercase;
+}
+p{
+    font-family: 'Bebas Neue', sans-serif;
+}
+

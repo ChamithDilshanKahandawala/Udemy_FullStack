@@ -1,0 +1,51 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&display=swap" rel="stylesheet">
+
+
+
+.color-title{
+    font-weight: normal;
+
+}
+#red{
+    color: red;
+}
+
+#blue{
+    color: blue;
+
+}
+
+#orange{
+    color: orange;
+
+}
+
+#green{
+    color: green;
+
+}
+
+#yellow{
+    color: yellow;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+}
+
+h4{
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+

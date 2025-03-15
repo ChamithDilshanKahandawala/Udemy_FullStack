@@ -1,0 +1,67 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+   
+    
+}
+body{
+    
+    background: linear-gradient(#b483e198 ,rgba(225, 209, 131, 0.596));
+    height: 800px;
+}
+
+.head{
+    width: 90%;
+
+    
+    text-align: center;
+    
+}
+.header{
+
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+    font-family:Times, Times New Roman, serif ;
+    font-weight: 700;
+}
+
+.hdr2{
+
+    text-align: center;
+    font-weight: 1000;
+    
+
+}
+
+.olist{
+
+    font-size: 20px;
+    padding: 30px;
+    font-family:cursive ;
+    font-weight: 700;
+    
+    
+}
+
+
+
+.li1{
+    color: red;
+}
+
+#id-selector-demo{
+    color: green;
+
+}
+
+li[value="4"]{
+    color: blue;
+}
+
+*{
+    text-align: center;
+}

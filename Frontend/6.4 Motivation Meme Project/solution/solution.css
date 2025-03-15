@@ -1,0 +1,33 @@
+body{
+    background: black;
+
+}
+
+.div1{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.img1{
+    
+    width: 100%;
+    
+}
+img{
+    border: yellow solid 5px;
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+}
+
+p{
+    text-transform:capitalize ;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
