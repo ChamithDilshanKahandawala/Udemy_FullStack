@@ -17,13 +17,13 @@ function bandNameGenerator(req, res, next) {
   next();
 }
 
-app.use(bandNameGenerator);
+
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public/index.html");
 });
 
-app.post("/submit", (req, res) => {
+app.post("/submit" ,bandNameGenerator, (req, res) => {
   res.send(`<h1>Your band name is:</h1><h2>${bandName}✌️</h2>`);
 });
 
