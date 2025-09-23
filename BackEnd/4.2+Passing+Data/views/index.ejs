@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Name Letters</title>
+</head>
+
+<body>
+
+  <%if(locals.numberofLetters){%>
+    <h1> Ther are <%=numberofLetters %> in your name </h1>
+  <% }else{ %>
+    <h1>Write Your Name Below</h1>
+    <% } %>
+  <!-- Write your code here -->
+  <form action="/submit" method="POST">
+    <input type="text" name="fName" placeholder="First name">
+    <input type="text" name="lName" placeholder="Last name">
+    <input type="submit" value="OK">
+  </form>
+</body>
+
+</html>
+
+<!-- import express from "express";
+import bodyParser from "body-parser";
+
+const app = express();
+const port = 3000;
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get("/", (req, res) => {
+  res.render("index.ejs");
+});
+
+app.post("/submit", (req, res) => {
+
+});
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+}); -->
